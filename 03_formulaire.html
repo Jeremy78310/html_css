@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire HTML</title>
+    <link rel="stylesheet" href="css/03_formulaire.css">
+</head>
+<body>
+    <!--je déclare mon formulaire avec la balise form-->
+    <form>
+        <label>
+            pseudo
+            <input type="text" id="pseudo name="pseudo place="exemple" required>
+            <!-- l'id sert à utiliser la donnée avec d'autres langages,
+            le place holder contient le texte qui apparait dans l'input
+            type précise le type de donnée recupreré
+            required précise au navigateur que le champ est à renseigner obligatoirement
+            -->
+        </label>
+
+        <br>
+        
+       <!--mot de passe-->
+       <label for="mdp">
+           mot de passe <pan title="le mot de passe peut contenir ...."></span>
+       </label> 
+       <input type="password" name="mdp" placeholder="Mot de passe "required>
+
+       <br>
+
+       <!--email-->
+       <!--mot de passe-->
+       <label for="email"></label>
+       <input type="email"name="email placehloder="Email>
+
+       <br>
+
+       <!--fichier-->
+       <label for="photo"> Photo</label>
+       <input type="file"> name="photo"
+
+       <!-- case a cocher checkbox -->
+       <!-- plusieurs choix -->
+       <label for="question">Quel votre animal de comagnie ?</label>
+       <p>
+           <input type="checkbox"name="reponse01"> Chien
+           <input type="checkbox"name="reponse02"> Chat
+           <input type="checkbox"name="reponse03">  Poisson
+       </p>
+
+       <!-- cases à cocher radio -->
+       <!-- un choix -->
+       <label for="question 1">Qui seront voc accompagnateurs?</label>
+       <p>
+           <input type="radio" name="reponse11">En famille
+           <input type="radio" name="reponse12"chekched>Entre amis <!-- checked) coché par défaut -->
+           <input type="radio" name="reponse1">solo
+       </p>
+
+       <br>
+       <br>
+
+       <!-- zone de texte -->
+       <label for="commentaires">Commentaires</label>
+       <textarea name="commentaires" cols="80" rows="8"></textarea>
+       <!-- rows nbs de lignes cols nbs de colonnes/ caractères -->
+
+       <br>
+
+       <!-- bouton d'envoi du formulaire -->
+       <input type="reset" name="incription" value="envoyer">
+
+       <!-- bouton pour vider le formulaire -->
+       <input type="reset name="annuler" value="Annuler">
+
+       <br>
+
+       <a href= "https://www.w3schools.com/html/html_form_input_types.asp"
+
+       <br>
+
+       <a href= "https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input"
+
+    </form>
+</body>
+</html>

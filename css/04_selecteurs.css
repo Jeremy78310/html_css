@@ -1,0 +1,50 @@
+body{
+    font-size: 25px; /*taille de la police*/
+}
+
+h1{
+    background-color: darkblue
+    cornflowerblue
+}
+
+section p{
+    color: red; /*tous p qui sont dans section*/
+}
+
+section p:first-child{
+color: darkviolet; /*1er dans la section*/
+}
+
+section p :last-child{
+    color: lightpink; /*dernier p dans la section*/
+}
+
+section p:nth-child(even){/*numéro de l'enfant*/
+    color: lightskyblue; /*les p pairs*/
+}
+
+section p:nth-child(3), section p :nthchild(10)
+        
+zone1{
+    color : #de143c
+
+zone 2{
+    color : #0f6257
+.lime
+
+#zone3{
+    background : lightsalmon
+
+zone 3 : before{/* ajoute du contenu aavnt le contenu de la liste*/
+    content: "rajouté avant"; /* la propréié content est obligatoire quand on utilise before, le contenu du before ne
+    s'affiche pas dans le html, on peut laisser cette propriété vide, on peut meme ajouter des atttributs à une balise
+    (exemple : title)*/
+
+zone3 : after{
+    content : ajoute après 
+}
+
+li: :nth-child(2){
+    background-color : darked
+    color : white
+}

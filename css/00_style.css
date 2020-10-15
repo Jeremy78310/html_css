@@ -1,0 +1,22 @@
+/* /!\ attention les commentaires en css ne se font pas de la même manière qu'en HTML */
+/*les développeurs ont l'habituded'utliser un resetqui va uniformiserla mise en page, on trouve
+selecteur{
+    propriété : valeur;/* le point virgule est indipensable pour ne pas avoir d'erreurs, prenez l'habitude de le mettre tout le 
+    temps*/ 
+}
+
+.class{
+    propriété : valeur;
+    proprété  : valeur;
+    propriété : valeur;
+}
+
+#id{ /* On n'utlise les id de manière unique, on ne donne pas le même nom à l'id à plusieurs balises, les id sont utilisés aussi
+pour faire des ancres *:
+    propriété:  valeur;
+}
+
+.class1 .class2 .class3{ ici on parle de la class2 qui en dans la class1
+
+
+.class1 .class2 .class3{ on sépare les selecteurs par des virgules pour en appliquer le même style
