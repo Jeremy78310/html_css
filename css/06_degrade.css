@@ -1,0 +1,17 @@
+.contenu{
+    height: 45em; /*hauteur*/
+    width: 45em; /*largeur*/
+    margin: auto; /*centre automatiquement la balise*/
+    border-radius: 50%; /*arrondi les angles*/
+    background: linear-gradient(to left, #40a497, red);
+    /*dégradé qui demarre avec la premiere en haut et ma derniere en bas*/
+    /* avec le le to left la premiere couleur està droite et la derniere à gauche*/
+}
+
+.contenu{
+    height: 50em;
+    width: 50em;
+    margin: auto;
+    border-radius: 80%;
+    background: linear-gradient( to left, red, black);
+}

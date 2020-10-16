@@ -9,7 +9,7 @@ body{
 
 table{
     border: 4px solid #483d8b;
-    border-collapse: collapse;/*rassemble les border ensemblepour otenir une border unique*/
+    border-collapse: collapse;/*rassemble les border ensemble pour otenir une border unique*/
     width: 90%;
     margin: 25px;
 }
@@ -27,7 +27,7 @@ th{
     border: 1px dotted #6a5acd;/* dotted = pointillé*/
     padding: 4px; 
     background-color: rgb(red, green, blue);
-    widght: 25
+    width: 25px;
 }
 
 td{
