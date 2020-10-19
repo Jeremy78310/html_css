@@ -1,0 +1,68 @@
+table td{
+    background-color:white;
+}
+
+.noir{
+    background-color: black;
+}
+
+.marron{
+    background-color: brown;
+}
+
+.marron2{
+    background-color: rgba(165, 42, 42, 0.541);
+}
+
+.habit1{
+    background-color: green;
+}
+
+.habit2{
+    background-color: rgb(251, 235, 201);
+}
+
+.veste1{
+    background-color: rgb(112,46, 12);
+}
+
+.veste2{
+    background-color: rgb(136, 54, 14);
+}
+
+.veste4{
+    background-color: rgb(36, 53 , 21);;
+}
+
+
+.peau1{
+    background-color: rgb(255, 255, 194);
+}
+
+.peau2{
+    background-color: rgb(240, 195, 140);
+}
+
+.cape1{
+    background: rgb(49, 73, 23);
+}
+
+.cape2{
+    background-color: rgb(54,92,33);
+}
+
+.cape3{
+    background-color: rgb(103, 150, 44);
+}
+
+.pantalon2{
+    background-color: rgb(135, 82,50);
+}
+
+.pantalon3{
+    background-color: rgb(150, 96, 55);
+}
+
+.jaune{
+    background-color: rgb(254, 204, 55);
+}

@@ -1,0 +1,51 @@
+body{
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+div{
+    width: 90%;
+    margin: 0 auto;
+    /*
+    margin : 0 auto 0 auto; -> haut droite bas gauche
+    margin: 0;
+    marfin: 0 auto 1; (gauche ->auto)
+    */
+    background-color: lightblue;
+}
+
+.boite{
+    height: 11vh;
+    width: 18vh;
+    padding: 5vh;
+    /* 
+    EM : relatif à l'élément parent
+    REM : relatif à la balise html
+    % : toujours relatif à l'élélment parent (%)
+    VW : relatif à la largeur de l'écran
+    VH : relatif à la longueur de l'écran
+    */
+    background:url (../Images/images.jpg);
+    background-repeat: no-repeat;
+    border: 5px double orchid;
+    margin: 2vh;
+    float: :left;/*effet flottant, place les éléments cote à cote alors que le flux standard des élélments les place les un en-dessous des autres*/
+    transition: margin 0.5s;
+}
+
+.boite:hover{  
+    margin-top: 10vh;
+}
+
+.clear{             
+    clear: both;
+}
+
+p{
+    background-color: mediumaquamarine;
+}
+
+p spar{
+    background-color: rgb(129, 129, 195);
+}
+

@@ -1,0 +1,3 @@
+une balise block prend 100% de la page ( ex : titres, footer )
+une balise type inline un lien par exemple va se mettre l'un cote de l'autre
+on peut changer le comportement par défaut d'une block
