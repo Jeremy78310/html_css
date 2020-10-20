@@ -1,0 +1,13 @@
+h1, h2, div, a, span, section{
+    text-align: center;
+    border: 1px solid red;
+    background-color: lightblue;
+}
+
+.block{
+    display: block;
+}
+
+.inline{
+    display: inline;
+}
