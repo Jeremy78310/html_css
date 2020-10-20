@@ -1,0 +1,61 @@
+body{
+    background-color: red;
+    font-size: 25px;
+}
+
+#conteneur{
+    width: 80%;
+    margin: 0 auto;
+    background-color: red; /*le style est surchagé (donc il est écrasé) plus bas*/
+    border: 2px solid darkgray; 
+}
+     
+
+header{
+    height: 100px;
+    background-color: #8e3557;
+}
+
+nav{
+    height: 30px;
+    background-color: #4a1a2c;
+}
+    
+   
+
+section{
+    background-color: #787746;
+    height: 500px;
+    margin: 20px;
+}
+
+footer{
+    background-color: #4a1a2c;
+    height: 100px;
+}
+
+.a, .b, .c, .d{
+    width: 50%;
+    height: 250px;
+    float: left
+}
+
+.a{
+    background-color: blue;
+}
+
+.b{
+    background-color: green;
+}
+
+.c{
+    background-color: yellow;
+}
+
+.d{
+    background-color: white; 
+}
+
+.clear{
+    clear: both;
+}

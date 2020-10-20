@@ -1,0 +1,51 @@
+.c1, .c2, .c3, .c4, .c5{
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid black;
+    margin: 0.2em;
+    /* display: inline-block; */
+    float: left; 
+    text-align: center;
+}
+
+.c1{
+    background-color: green;
+    border-radius: 71px 73px 152px 152px;
+
+}
+
+.c2{
+    background-color: blue;
+    border-radius: 114px 0px 114px 0px;
+
+}
+
+.c3{
+    background-color: red;
+    border-radius: 200px;
+}
+
+.c4{
+    background-color: purple;
+    border-radius: 36px 114px 36px 114px;
+}
+
+.empty{
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid white;
+    margin: 0.2em;
+    float: left; 
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+section div:nth-child(18){
+    background-color:  red;
+}
+
+
+
