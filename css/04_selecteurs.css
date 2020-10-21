@@ -44,7 +44,7 @@ zone3 : after{
     content : ajoute après 
 }
 
-li: :nth-child(2){
+li:nth-child(2){
     background-color : darked
     color : white
 }

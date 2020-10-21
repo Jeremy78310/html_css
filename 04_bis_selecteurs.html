@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revision selecteurs CSS</title>
+    <link rel="stylesheet" href="css/04_bis_selecteurs.css">
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Edito</a>
+        <a href="#">Panier</a>
+        <a href="#">FAQ</a>
+        <a href="#">Nous contacter</a>
+    </nav>
+
+    <section class="container">
+        <h1>Aide mémoires des sélécteurs deja vus</h1>
+        <li>
+            <mark>*</mark> selectionne Tous les éléments de  la page HTML
+        </li>
+        <li>
+            <mark>.ma-jolie-nav</mark> selectionne tous les éléments de class 
+            "ma-jolie-nav"
+        </li>
+        <li>
+            <mark>#mon-unique-id</mark> selectionne léléments ayant le nom d'id "mon-unique'id"
+        </li>
+        <li>
+            <mark>div, article, aside</mark>selectionne toutes les balises &lt;div>, &lt;
+            article> et &lt;aside>
+        </li>
+        <li>
+            <mark>nav a</mark>selectionne tous les liens &lt;& inclus/imbriqués dans la 
+            balise &lt;nav>
+        </li>
+        <li>
+            nav a<mark>:hover</mark> selectionne tous les liens de la nav et active une 
+            animation lors du survol de la souris.
+        </li>
+    </ul>
+
+    <br />
+    </section>
+
+    <!-- .container1>section*2>h2+h3+ol>li*16-->
+    <div class="container1">
+        <sectionclass="container2">
+            <h2>Propriétés CSS utilisées dans cette page</h2>
+            <h3>Decriver leur usage et leurs valeurs possibles</h3>
+            <ol>
+                <li>background : La propriété <strong>background</strong> est une propriété raccourcie qui permet de définir les différentes valeurs des propriétés liées à la 
+                gestion des arrière-plans d'un élément.
+                </li>
+                <li>color : Le type de données CSS <strong>color</strong> permet de représenter des couleurs dans l'espace de couleurs RGB. Une couleur pourra être décrite de trois façons :
+                    grâce à un mot-clé (comme blue ou  transparent par exemple)
+                    en utilisant le système de coordonnées cubiques RGB (grâce à la notation #-hexadecimal ou aux notations fonctionnelles rgb() et rgba()
+                    en utilisant le système de coordonnées cylindriques HSL (grâce aux notations fonctionnelles hsl() et hsla()
+                    En plus de la couleur exprimée dans l'espace RGB, une valeur color contient également un canal alpha qui décrit la transparence de l'image et donc la façon 
+                    dont cette image se compose avec son arrière-plan. 
+                </li>
+                <li>float : La propriété <strong>float</strong> indique qu'un élément doit être retiré du flux normal et doit être placé sur le côté droit ou sur le côté gauche de son conteneur.
+                </li>
+                <li>font-family : Pour changer la police d'écriture, ex arial ... </li>
+                <li>font-size : Pour changer la taille de la police </li>
+                <li>height : Pour changer la hauteur </li>
+                <li>left : Position à partir du bord gauche de l'écran, en px ou autre. </li>
+                <li>line-height : Change la hauteur entre les lignes.   </li>
+                <li>margin : Change la tailles des marges exterieurs. </li>
+                <li>padding : Change la tailles des marges interieurs. </li>
+                <li>postion : Positionne un élément, ex fixed, absolu, relatives...
+                S'utilise conjointement avec left, right, top, bottom
+                <li>text-align : Alignement du texte right,left, center, justify  </li>
+                <li>text décoration : Dans notre cas on l'a utilisé pour retirer l'und </li>
+                <li>top :Position à partir du haut de l'écran. 
+                </li>
+                <li>transition : La propriété transition est une proprété raccourcie pour les propriétés : transition-propery, duration, timming-function, delay. 
+                </li>
+                <li>width : Définit la largeur d'un élément.
+                </li>
+            </ol>
+        </section>
+        <section class="container3"> 
+            <h2>Propriétés CSS à rechercher</h2>
+            <h3>
+                Rechereché les propriétés ci dessous, faites des tests sur cette page en utilisant la console de débuggage pour tester les valeurs qu'elles peuvent prendre (F12 dans
+                le navigateur)
+            </h3>
+            <ol>
+                <li>font-weight : La propriété CSS <strong>font-weight</strong> permet de définir la graisse utilisée pour le texte. Les niveaux de graisse disponibles dépendent de la police 
+                (cf. font-family). Certaines fontes n'existent qu'avec les niveaux de graisses <em>normal et bold lighter on peut meme utilisr des valeur dde 1 à 1000 meme avec des virgules.</em> 
+                </li>
+                <li>letter-spacing : La propriété <strong>letter-spacing</strong> définit l'interlettre utilisée pour les caractères qui composent le texte.
+                </li>
+                <li>word-spacing : La propriété <strong>word-spacing</strong> définit la règle d'espacement utilisée entre les balises et entre les mots. 
+                </li>
+                <li>text-shadow : La propriété <strong>text-shadow</strong> ajoute des ombres au texte. Elle accepte une liste d'ombres à appliquer au texte et aux décorations de l'élément. 
+                Chaque ombre est décrite par une certaine combinaison de décalages X et Y de l'élément, de rayon de flou et de couleur.
+                </li>
+                <li>background-image : La propriété <strong>background-image</strong> permet de définir une ou plusieurs images comme arrière(s)-plan(s) pour un élément.</li>
+                <li>background-size : La propriété CSS <strong>background-size</strong> définit la taille des images d'arrière-plan pour l'élément. La taille de l'image peut être contrainte, 
+                complètement ou partiellement afin de conserver ses proportions.
+                </li>
+                <li>opacitiy : La propriété <strong>opacity</strong> définit la transparence d'un élément. Autrement dit, elle permet de définir le degré de visibilité de l'arrière-plan sur lequel 
+                est placé l'élément.
+                </li>
+                <li>border-style : La propriété CSS <strong>border-style</strong> est une propriété raccourcie qui permet de définir le style des lignes utilisées pour les bordures 
+                des quatre côtés de la boîte d'un élément. 
+                </li>
+                <li>box-shadow : La propriété CSS <strong>box-shadow</strong> ajoute des ombres sur une balise par des virgules. Une boîte d'ombre est définie 
+                avec des décalages horizontal X et vertical Y par rapport à l'élément, avec des rayons de flou et d'étalement et avec une couleur.
+                </li>
+                <li>list-style-image : La propriété <strong>list-style-image</strong> définit l'image utilisée comme puce devant les éléments de listes. On peut également utiliser 
+                la propriété raccourcie <em>list-style</em>.
+                </li>
+                <li>border : La propriété CSS <strong>border</strong> est une propriété raccourcie qui permet de définir les propriétés liées à la bordure. 
+                border peut être utilisée pour définir les valeurs de <em>border-width, border-style et border-color</em>. 
+                </li>
+                <li>border-radius : La propriété <strong>border-radius</strong> permet de définir des coins arrondis pour la bordure d'un élément. 
+                La courbure de chaque coin est définie avec un ou deux rayons de courbures qui permettent de définir un arc de cercle ou un arc d'ellipse.
+                </li>
+                <li>border-with : La propriété CSS <strong>border-width</strong> est une propriété raccourcie qui définit l'épaisseur de la bordure d'un élément.
+                    Cette propriété raccourcie définit les propriétés détaillées
+                    <em>border-top-width,
+                        border-right-width,
+                        border-bottom-width
+                        border-left-width</em>.
+                    Si on utilise les propriétés logiques, elle définit <em>border-block-start-width, border-block-end-width, border-inline-start-width et border-inline-end-width</em>.
+                    Afin de paramétrer une bordure de façon plus pratique, on pourra utiliser la propriété raccourcie border. 
+                </li>
+                <li>font-variant : La propriété <strong>font-variant</strong> est une propriété raccourcie représentant les propriétés : 
+                <em>font-variant-caps, font-variant-numeric, font-variant-alternates, font-variant-ligatures et font-variant-east-asian</em>. 
+                On peut aussi utiliser les valeurs de la propriété font-variant définies avec CSS Level 2 <em>font-variant</em>, en utilisant la propriété raccourcie <em>font</em>.
+                </li>
+                <li>background-color : La propriété <strong>background-color</strong> permet de définir la couleur utilisée pour l'arrière-plan d'un élément 
+                (celle-ci peut être une couleur transparente).
+                </li>
+                <li>!important : A mettre à la fin d'une ligne de CSS pour forcer le navigateur à appliquer le style, il ne sera pas surcharger et il faut éviter de l'utiliser.
+                </li>
+            </ol>
+        </section>
+        <div class="clear"></div></div>
+    </div><!--fin div container1-->
+    
+    <section class="container container4">
+        <h2>Pour aller plus loin en CSS, quelques petites pistes...</h2>
+        <ul><!--ul>li*8>a-->
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDn le site officiel</a>
+                </li>
+                <li><a href="https://tympanus.net/codrops/">Codrops, références, tutos...</a>
+                </li>
+                <li><a href="https://flukeout.github.io/">Jeu avec sélecteurs CSS</a>
+                </li>
+                <li><a href="http://flexboxfroggy.com/">Autres jeux avec les "flexbox"</a>
+                </li>
+                <li><a href="http://viewportsizes.com/">Diiférentes tailles d'écran</a>
+                </li>
+                <li><a href="http://fr.learnlayout.com/">Displays</a>
+                </li>
+                <li><a href="https://purecss.io">Encore des tutos</a>
+                </li>
+                <li><a href="https://www.w3c.org/Style/CSS/learning">W3C partie CSS</a>
+                </li>
+            </ul>
+         </section>
+    
+</body>
+</html>
