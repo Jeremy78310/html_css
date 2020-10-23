@@ -1,0 +1,42 @@
+/*
+Média querie permet de ré-arranger la disposition du site en fonction des tailles de navigateur en pixels -cf. viewportsizes.com - en general 3 tailles suffisent.
+On peut faire une feuille en qtyle standars et seulement pour une reponsive.
+La zone est verte ene plein écran et passe d'une couleur à l'autre pour arriver au rouge, on utlisera les breakpoint 1200px, 
+992px et 768px.
+Un site doit être concu en pensant dès le début à la version mobile, on ca mobbile first.
+*/ 
+
+.zone-adaptative{
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+@media (min-width: 760px) { /*sert à utliser les média queries, on utilise le@ pour écrire règle css ici c'est la taille de l'écran dont on parle */
+    .zone-adaptative{
+        width: 750px;
+        background: orange;
+    }
+}
+
+@media (min-width: 992px){
+    .zone-adaptative{
+        width: 970px;
+        background: blue;
+
+    }
+}
+
+@media (min-width: 1200px){
+    .zone-adaptative{
+        width: 1170px;
+        background: green;
+    }
+}
+
+@media (min-width: 1500px){
+    .zone-adaptative{
+        width: 1460px;
+        background: blue;
+    }
+}

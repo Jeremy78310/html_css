@@ -1,0 +1,72 @@
+/*feuille de style pour 12 colonnes*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    margin: 0;
+    text-align: center;
+}
+
+.conteneur{
+    width: 960px;
+    border: 2px solid olive;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /*retour à la ligne si plus de place*/
+    background-color: bisque;
+    border: 2px solid white; /*solid dashed dotted ridge double ... */ 
+}
+
+.col_1 {
+    width: 8.333333%;
+}
+.col_2 {width: 16.666666%;}
+.col_3 {width: 25%;}
+.col_4 {width: 33.333333%;}
+.col_5 {width: 41.666666%;}
+.col_6 {width: 50%;}
+.col_7 {width: 58.333333%;}
+.col_8 {width: 66.666666%;}
+.col_9 {width: 75%;}
+.col_10 {width: 83.333333%;}
+.col_11 {width:91.666666%;}
+.col_12 {width: 100%;}
+
+.bleu{
+    background: lightblue;
+    min-height: 60px;
+}
+
+.jaune{
+    background: yellow;
+    min-height: 60px;
+}
+
+.rose{
+    background: pink;
+    min-height: 60px;
+}
+
+.vert{
+    background: lightgreen;
+    min-height: 60px;
+}
+
+.marge_1 {margin-left: 8.333333%;}
+.marge_2 {margin-left: 16.666666%;}
+.marge_3 {margin-left: 25%;}
+.marge_4 {margin-left: 33.333333%;}
+.marge_5 {margin-left: 41.666666%;}
+.marge_6 {margin-left: 50%;}
+.marge_7 {margin-left: 58.333333%;}
+.marge_8 {margin-left: 66.666666%;}
+.marge_9 {margin-left: 75%;}
+.marge_10 {margin-left: 83.333333%;}
+.marge_11 {width:91.666666%;}
